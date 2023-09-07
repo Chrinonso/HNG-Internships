@@ -26,8 +26,8 @@ const getRequest = async (req, res) => {
     "current_day": currentDay,
     "utc_time": currentUtcTime,
     track,
-    "github_file_url": 'https://github.com/username/repo/blob/main/file_name.ext',
-    "github_repo_url": 'https://github.com/username/repo',
+    "github_file_url": 'https://github.com/Chrinonso/HNG-Internships/blob/main/controller/hng.js',
+    "github_repo_url": 'https://github.com/Chrinonso/HNG-Internships',
     "status_code": 200,
   };
 
