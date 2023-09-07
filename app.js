@@ -20,6 +20,10 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
+app.get('/', (req,res) => {
+    res.send('This is my homepage')
+});
+
 port = process.env.PORT || 9000;
 
 

@@ -4,7 +4,7 @@ const getRequest = async (req, res) => {
 
   // Get the current day and time in UTC
   const currentDay = new Date().toLocaleString('en-US', { weekday: 'long' });
-  const currentUtcTime = new Date().toISOString();
+  const currentUtcTime = new Date().toISOString().split('.')[0] + 'Z' ;
 
   // Validate UTC time to within +/-2 minutes of the current time
   const currentTime = new Date();
